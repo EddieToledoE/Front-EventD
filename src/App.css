@@ -1,0 +1,71 @@
+.app-container {
+    text-align: center; /* Centra el texto de los encabezados */
+    color: #333; /* Color del texto */
+    font-family: Arial, sans-serif; /* Fuente del texto */
+  }
+  
+  .header-container {
+    background-color: #FFD700; /* Fondo amarillo para los encabezados */
+    padding: 20px;
+    color: #FF8C00; /* Color del texto de los encabezados */
+  }
+  
+  .content-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  .form-container, .data-container {
+    flex: 1;
+    margin: 10px;
+    padding: 20px;
+    background-color: #FFF8DC; /* Fondo claro para las secciones de contenido */
+    border-radius: 10px; /* Bordes redondeados */
+  }
+  
+  .form-group {
+    margin: 20px 0; /* Espaciado entre elementos del formulario */
+  }
+  
+  input, select, button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    background-color: #FFA07A; /* Botón anaranjado */
+    color: white;
+    font-weight: bold;
+  }
+
+  button:hover {
+    background-color: #FF6347; /* Botón anaranjado más oscuro al pasar el mouse */
+  }
+
+  .texto-pequeno {
+    font-size: 12px; /* Tamaño de fuente más pequeño */
+    color: rgba(0, 0, 0, 0.5); /* Color opaco */
+    text-align: justify; /* Justificar el texto para una lectura uniforme */
+    margin-top: 20px; /* Espacio antes del texto */
+    line-height: 1.5; /* Espaciado entre líneas para mejor legibilidad */
+  }
+  .data-container h2, .data-container h3 {
+    color: #FF8C00; /* Ajusta el color según tu paleta */
+  }
+  
+  .data-container img {
+    max-width: 200px;
+    margin: 20px auto;
+    display: block;
+  }
+  
+  /* Estilos para el mensaje de bienvenida */
+  .data-container p {
+    color: rgba(0, 0, 0, 0.7);
+    font-size: 16px;
+  }
+  
